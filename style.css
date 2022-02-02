@@ -23,13 +23,23 @@ body{
 
 .dot1{
     background-color: crimson;
+    animation: jumpup 0.6s 0.4s linear infinite;
 }
 .dot2{
     background-color: darkcyan;
+    animation: jumpup 0.6s 0.5s linear infinite;
 }
 .dot3{
     background-color: darkmagenta;
+    animation: jumpup 0.6s 0.6s linear infinite;
 }
 .dot4{
     background-color: hotpink;
+    animation: jumpup 0.6s 0.7s linear infinite;
+}
+
+@keyframes jumpup{
+    50%{
+        transform: translate(0,30px);
+    }
 }
