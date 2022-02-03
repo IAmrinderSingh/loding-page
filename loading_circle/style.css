@@ -12,3 +12,13 @@ body{
     left: 50%;
     margin: -25px 0 0 -25px;
 }
+
+.revolve{
+    animation: moveclock 0.8s linear infinite;
+}
+
+@keyframes moveclock{
+    100%{
+        transform: rotate(360deg);
+    }
+}
